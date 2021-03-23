@@ -1,0 +1,123 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+button{
+  background-color: white;
+  border-radius: 5px;
+  border: 0px;
+}
+.subtitulo{
+  color: white;
+  margin-left: 6rem;
+  margin-bottom: 1rem;
+}
+button:hover{
+  background-color: #26DE91;
+  transition-duration: 0.3s;
+  color: white;
+}
+h1{
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+h3{
+  margin-left: 50px;
+}
+.titulo__categoria{
+  margin-top: 2rem;
+  margin-left: 6rem;
+}
+input[type=number] {
+  padding: 0.5rem 1rem;
+  margin-left: 50px;
+  width: 50px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+  color: gray;
+}
+input[type=number]:focus {
+  color: black;
+}
+input[type=text] {
+  padding: 0.5rem 1rem;
+  margin-left: 50px;
+  width: 150px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+  color: gray;
+}
+input[type=text]:focus {
+  width: 300px;
+  color: black;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.limit_input{
+  width: 40px !important;
+}
+.limit_input:focus{
+  width: 80px !important;
+}
+.centrar {
+  display: flex;
+  justify-content: center;
+}
+.card-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: 1px solid black;
+  width: 90%;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+.card{
+  align-content: center;
+  border: 1px solid  grey;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  max-width: 25rem;
+  margin-top: 1rem;
+}
+.card p{
+  padding: 5px;
+  text-align: center;
+}
+.card img{
+  max-height: 240px;
+}
+form{
+  margin-left: 3rem;
+}
+h4{
+  font-size: 1.5rem;
+}
+ul h4{
+  margin-left:6rem;
+  z-index: 1;
+}
+button{
+  margin-left: 50px;
+  padding: 0.5rem 1rem;
+}
+.primeraSeccion{
+  background-color: black;
+  padding: 2rem 0 2rem 0;
+}
+.categoria_Vacia_msg{
+  text-align: center;
+}
